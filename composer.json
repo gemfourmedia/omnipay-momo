@@ -1,0 +1,51 @@
+{
+    "name": "gemfourmedia/omnipay-momo",
+    "type": "library",
+    "description": "MoMo payment gateway driver for Omnipay library",
+    "keywords": [
+        "gemfourmedia",
+        "momo",
+        "payment",
+        "vietnam-payment",
+        "payment-gateway",
+        "vietnam-payment-gateway"
+    ],
+    "homepage": "https://github.com/gemfourmedia/omnipay-momo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sang Dang",
+            "email": "sangdang@gemfourmedia.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1|^8.0",
+        "omnipay/common": "^3.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3.0",
+        "phpunit/phpunit": "6",
+        "scrutinizer/ocular": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\MoMo\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnipay\\MoMo\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "\"vendor/bin/phpunit\""
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+	}
+}

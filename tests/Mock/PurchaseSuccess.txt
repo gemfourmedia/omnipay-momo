@@ -1,0 +1,27 @@
+HTTP/1.1 200
+Server: nginx
+Date: Fri, 21 Jun 2019 10:04:49 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Set-Cookie: JSESSIONID=87723C3A1129F9B3F53B3B8F1D132E21;path=/gw_payment/;HttpOnly
+Pragma: no-cache
+Access-Control-Allow-Origin: *
+X-Kong-Upstream-Latency: 115
+X-Kong-Proxy-Latency: 1
+Via: kong/0.14.1
+Strict-Transport-Security: max-age=15768000
+
+{
+  "partnerCode": "MOMO",
+  "requestId": "MM1540456472575",
+  "orderId": "MM1540456472575",
+  "amount": 150000,
+  "responseTime": 145256987,
+  "message": "Thành công",
+  "resultCode": 0,
+  "payUrl": "https://test-payment.momo.vn/v2/gateway/pay?t=TU9NT1NKSTEyMDE5MDgyM3wxNjEzNTMyMDk3OTIyOjAxMjM0NTY3Nzg=",
+  "deeplink": "momo://?action=payWithAppToken&amount=150000&fee=0&requestType=payment&orderLabel=M%C3%A3+%C4%91%C6%A1n+h%C3%A0ng&orderId=MM1540456472575&requestId=MM1540456472575&merchantnamelabel=Nh%C3%A0+cung+c%E1%BA%A5p&description=SDK+team.&partnerCode=MOMO&merchantcode=MOMO&language=vi&merchantname=MoMo+Payment&packageId=&extras=&extraData=email=abc@gmail.com&deeplinkCallback=https%3A%2F%2Ftest-payment.momo.vn%2Fgw_payment%2Fm2%3Fid%3DM7EWVy&callbackUrl=https%3A%2F%2Ftest-payment.momo.vn%2Fgw_payment%2Fm2%3Fid%3DM7EWVy&urlSubmitToken=https%3A%2F%2Ftest-payment.momo.vn%2Fgw_payment%2Fpayment_with_app%3FpartnerCode%3DMOMO%26accessKey%3DF8BBA842ECF85%26requestId%3DMM1540456472575%26orderId%3DMM1540456472575%26orderInfo%3DSDK%2Bteam.%26amount%3D150000%26signature%3Ddf2a347519abb91e9c1bd1bee80e675f4108cb6dbcac531979e805857293d486%26requestType%3DcaptureWallet%26payType%3Dapp-in-app&appScheme=",
+  "qrCodeUrl": "https://test-payment.momo.vn/gw_payment/s/zoVKZd"
+}

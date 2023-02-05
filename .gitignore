@@ -1,0 +1,15 @@
+.DS_Store
+.buildpath
+.project
+.settings
+.phpunit.result.cache
+.idea
+bk
+build
+composer.lock
+composer.phar
+nbproject
+vendor
+phpunit.phar
+phpunit.xml
+Thumbs.db
